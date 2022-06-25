@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '左蓝',
-  author: '左蓝',
+  title: '胖虎',
+  author: '胖虎',
   email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
+  link: 'https://panghuu.xyz',
   newsletter: '左蓝的周刊',
   description: '一个静悄悄的博客.',
   notes: '左蓝的笔记',
@@ -13,7 +13,7 @@ const BLOG = {
   },
   notesLink: {
     index: '/',
-    blog: 'https://zuolan.me',
+    blog: 'https://panghuu.xyz',
     contact: 'https://zuolan.me/contact'
   },
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
