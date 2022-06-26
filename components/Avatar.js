@@ -95,7 +95,7 @@ const Avatar = (props) => (
       y='0'
       width='100%'
       height='100%'
-      clip-path='url(#shape)'
+      clipPath='url(#shape)'
       href='https://'
       preserveAspectRatio='none'
       style={{
