@@ -96,7 +96,7 @@ const Avatar = (props) => (
       width='100%'
       height='100%'
       clipPath='url(#shape)'
-      href='https://'
+      href='https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F85ea5eab-f855-408f-8209-6fe21e11cfcd%2F151656201516_.pic.jpg?table=block&id=60ebe435-7bca-4edf-bb20-58b3e32ac39a&spaceId=bb5af170-abec-42ff-8e0b-d444abe8b28a&width=250&userId=6e39908f-7e2b-4259-9486-92d63de94365&cache=v2'
       preserveAspectRatio='none'
       style={{
         opacity: '0.6'
