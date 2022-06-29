@@ -36,27 +36,27 @@ const NavBar = () => {
       icon: <HomeIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     },
-    {
-      id: 1,
-      name: t.NAV.NEWSLETTER,
-      to: '/newsletter',
-      icon: <NewspaperIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 2,
-      name: t.NAV.NOTES,
-      to: '/notes',
-      icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 3,
-      name: t.NAV.PROJECTS,
-      to: '/projects',
-      icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.showAbout
-    },
+    // {
+    //   id: 1,
+    //   name: t.NAV.NEWSLETTER,
+    //   to: '/newsletter',
+    //   icon: <NewspaperIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: true
+    // },
+    // {
+    //   id: 2,
+    //   name: t.NAV.NOTES,
+    //   to: '/notes',
+    //   icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: true
+    // },
+    // {
+    //   id: 3,
+    //   name: t.NAV.PROJECTS,
+    //   to: '/projects',
+    //   icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: BLOG.showAbout
+    // },
     {
       id: 4,
       name: t.NAV.SEARCH,
