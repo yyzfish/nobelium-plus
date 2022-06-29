@@ -6,7 +6,7 @@ import {
   // UserIcon,
   // UsersIcon,
   // BookOpenIcon,
-  // MailIcon
+  MailIcon
 } from '@heroicons/react/outline'
 import Social from './Social.js'
 
@@ -48,13 +48,13 @@ const Footer = ({ fullWidth }) => {
     //   icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
     //   show: true
     // },
-    // {
-    //   id: 3,
-    //   name: t.NAV.CONTACT,
-    //   to: '/contact',
-    //   icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
-    //   show: BLOG.showAbout
-    // }
+    {
+      id: 3,
+      name: t.NAV.CONTACT,
+      to: '/contact',
+      icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
+      show: BLOG.showAbout
+    }
   ]
 
   return (
