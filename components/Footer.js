@@ -3,10 +3,10 @@ import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import {
-  UserIcon,
-  UsersIcon,
-  BookOpenIcon,
-  MailIcon
+  // UserIcon,
+  // UsersIcon,
+  // BookOpenIcon,
+  // MailIcon
 } from '@heroicons/react/outline'
 import Social from './Social.js'
 
@@ -27,34 +27,34 @@ const Footer = ({ fullWidth }) => {
   const from = +BLOG.since
 
   const links = [
-    {
-      id: 0,
-      name: t.NAV.ABOUT,
-      to: BLOG.path || '/about',
-      icon: <UserIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 1,
-      name: t.NAV.FRINEDS,
-      to: '/friends',
-      icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 2,
-      name: t.NAV.BOOKS,
-      to: '/books',
-      icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 3,
-      name: t.NAV.CONTACT,
-      to: '/contact',
-      icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.showAbout
-    }
+    // {
+    //   id: 0,
+    //   name: t.NAV.ABOUT,
+    //   to: BLOG.path || '/about',
+    //   icon: <UserIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: true
+    // },
+    // {
+    //   id: 1,
+    //   name: t.NAV.FRINEDS,
+    //   to: '/friends',
+    //   icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: true
+    // },
+    // {
+    //   id: 2,
+    //   name: t.NAV.BOOKS,
+    //   to: '/books',
+    //   icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: true
+    // },
+    // {
+    //   id: 3,
+    //   name: t.NAV.CONTACT,
+    //   to: '/contact',
+    //   icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: BLOG.showAbout
+    // }
   ]
 
   return (
